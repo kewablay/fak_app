@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAKAPP Sign Up</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="auth.js"></script>
+</head>
+<body>
+     <!-- nav section  -->
+     <nav>
+        <div>
+            <a href="index.html">
+                <h2>FAKAPP</h2>
+            </a>
+        </div>
+
+        <div class="nav-links">
+            <a href="login.html">Login</a>
+        </div>
+    </nav>
+
+    <!-- sign up form  -->
+    <section class="auth">
+        <form action="#" onsubmit="register(event)">
+            <h3 class="title">Sign Up</h3>
+            <div class="authInput">
+                <span class="icon"><img src="assets/user.png" alt=""></span>
+                <input type="email" id="email" placeholder="Enter your email address">
+            </div>
+            <div class="authInput">
+                <span class="icon"><img src="assets/password.png" alt=""></span>
+                <input type="password" id="password" placeholder="Enter your password">
+            </div>
+            <input type="submit" value="Sign Up">
+            <p class="prompt">Account registered successfully <a href="login.html" id="login">login</a></p>
+        </form>
+    </section>
+</body>
+</html>
